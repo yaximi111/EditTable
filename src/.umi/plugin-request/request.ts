@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Base on https://github.com/umijs/E:/code/mobx/node_modules/umi-request
+ * Base on https://github.com/umijs/E:/code/EditTable/node_modules/_umi-request@1.4.0@umi-request
  */
 import {
   extend,
@@ -13,7 +13,7 @@ import {
   RequestResponse,
   RequestInterceptor,
   ResponseInterceptor,
-} from 'E:/code/mobx/node_modules/umi-request';
+} from 'E:/code/EditTable/node_modules/_umi-request@1.4.0@umi-request';
 // @ts-ignore
 
 import { ApplyPluginsType } from 'umi';
@@ -22,7 +22,7 @@ import { history, plugin } from '../core/umiExports';
 // decoupling with antd UI library, you can using `alias` modify the ui methods
 // @ts-ignore
 import { message, notification } from '@umijs/plugin-request/lib/ui';
-import useUmiRequest, { UseRequestProvider } from 'E:/code/mobx/node_modules/@ahooksjs/use-request';
+import useUmiRequest, { UseRequestProvider } from 'E:/code/EditTable/node_modules/_@ahooksjs_use-request@2.8.15@@ahooksjs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -38,7 +38,7 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from 'E:/code/mobx/node_modules/@ahooksjs/use-request/lib/types';
+} from 'E:/code/EditTable/node_modules/_@ahooksjs_use-request@2.8.15@@ahooksjs/use-request/lib/types';
 
 type ResultWithData<T = any> = { data?: T; [key: string]: any };
 

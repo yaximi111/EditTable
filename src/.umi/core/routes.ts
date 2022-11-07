@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from 'E:/code/mobx/node_modules/umi/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from 'E:/code/EditTable/node_modules/_@umijs_runtime@3.5.35@@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -9,7 +9,7 @@ export function getRoutes() {
   {
     "name": "login",
     "path": "/login",
-    "component": require('E:/code/mobx/src/pages/Login').default,
+    "component": require('E:/code/EditTable/src/pages/Login').default,
     "exact": true
   },
   {
@@ -55,6 +55,12 @@ export function getRoutes() {
         "name": "Four",
         "path": "/home/home/Four",
         "component": require('@/pages/page/Four').default,
+        "exact": true
+      },
+      {
+        "name": "Four",
+        "path": "/home/home/queryConfig",
+        "component": require('@/pages/page/QueryConfig').default,
         "exact": true
       }
     ]

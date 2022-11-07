@@ -36,7 +36,11 @@ export default [
         path: 'home/Four',
         component: '@/pages/page/Four',
       },
+      {
+        name: 'Four',
+        path: 'home/queryConfig',
+        component: '@/pages/page/QueryConfig',
+      },
     ],
   },
- 
 ];

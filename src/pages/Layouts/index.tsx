@@ -5,7 +5,7 @@ import ProLayout, { PageContainer } from '@ant-design/pro-layout';
 import { SmileOutlined, HeartOutlined } from '@ant-design/icons';
 import PV from './injectStore';
 import Button from '@mui/material/Button';
-import routes from '../../../config/route'
+import routes from '../../../config/route';
 
 // const IconMap = {
 //   smile: <SmileOutlined />,
@@ -37,9 +37,12 @@ const defaultMenus = [
         name: 'four',
         path: 'home/four',
       },
+      {
+        name: '配置查询',
+        path: 'home/queryConfig',
+      },
     ],
   },
-  
 ];
 
 const loopMenuItem = (menus: MenuDataItem[]): MenuDataItem[] =>
@@ -51,7 +54,6 @@ const loopMenuItem = (menus: MenuDataItem[]): MenuDataItem[] =>
 
 export default ({ children }: any) => (
   <PV>
-   
     {history.location.pathname !== '/home/home/Three' ? (
       <ProLayout
         contentStyle={{ backgroundColor: 'white' }}
@@ -69,7 +71,7 @@ export default ({ children }: any) => (
         location={{
           pathname: '/home',
         }}
-        menu={{request:()=>loopMenuItem(defaultMenus)}}
+        menu={{ request: () => loopMenuItem(defaultMenus) }}
         // menuRender={(props:any)=>{
         //   console.log('location',props.children.props.location)
         //   console.log(props.children.props.location.pathname!=='/home/home/Three')
@@ -82,7 +84,7 @@ export default ({ children }: any) => (
         {children}
       </ProLayout>
     ) : (
-      <> { children }</>
+      <> {children}</>
     )}
   </PV>
 );

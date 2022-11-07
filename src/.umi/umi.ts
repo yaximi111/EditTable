@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'E:/code/mobx/node_modules/umi/node_modules/@umijs/runtime';
-import { renderClient } from 'E:/code/mobx/node_modules/@umijs/renderer-react';
+import { ApplyPluginsType } from 'E:/code/EditTable/node_modules/_@umijs_runtime@3.5.35@@umijs/runtime';
+import { renderClient } from 'E:/code/EditTable/node_modules/_@umijs_renderer-react@3.5.35@@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
@@ -37,7 +37,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.5.21',
+      version: '3.5.35',
     };
   
 
