@@ -62,6 +62,18 @@ export function getRoutes() {
         "path": "/home/home/queryConfig",
         "component": require('@/pages/page/QueryConfig').default,
         "exact": true
+      },
+      {
+        "name": "Retrieval",
+        "path": "/home/home/Retrieval",
+        "component": require('@/pages/page/Retrieval').default,
+        "exact": true
+      },
+      {
+        "name": "FormListNested",
+        "path": "/home/home/formListNested",
+        "component": require('@/pages/page/FormListNested').default,
+        "exact": true
       }
     ]
   }

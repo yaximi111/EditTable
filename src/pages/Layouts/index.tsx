@@ -41,6 +41,14 @@ const defaultMenus = [
         name: '配置查询',
         path: 'home/queryConfig',
       },
+      {
+        name: '配置检索',
+        path: 'home/Retrieval',
+      },
+      {
+        name: 'formList嵌套',
+        path: 'home/formListNested',
+      },
     ],
   },
 ];

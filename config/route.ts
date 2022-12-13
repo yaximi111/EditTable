@@ -41,6 +41,16 @@ export default [
         path: 'home/queryConfig',
         component: '@/pages/page/QueryConfig',
       },
+      {
+        name: 'Retrieval',
+        path: 'home/Retrieval',
+        component: '@/pages/page/Retrieval',
+      },
+      {
+        name: 'FormListNested',
+        path: 'home/formListNested',
+        component: '@/pages/page/FormListNested',
+      },
     ],
   },
 ];
